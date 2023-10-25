@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675">
+  <title>Group 65 Copy 3</title>
+  <defs>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="a">
+      <stop stop-color="#00CE8E" offset="0%"/>
+      <stop stop-color="#0042CE" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="b">
+      <stop stop-color="#00CE8E" offset="0%"/>
+      <stop stop-color="#0042CE" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="c">
+      <stop stop-color="#FF4387" offset="0%"/>
+      <stop stop-color="#EF9300" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M20 675h1160c11.046 0 20-8.954 20-20V20c0-11.046-8.954-20-20-20H20C8.954 0 0 8.954 0 20v635c0 11.046 8.954 20 20 20Z" fill="#101820"/>
+    <path stroke="#FFF" stroke-width="3" fill="#101820" d="m115.178 121.436 379.259 39.823-21.014 199.744-379.259-39.824z"/>
+    <path stroke="#FFF" stroke-width="3" fill="#101820" d="m66.576 172.276 379.896-33.205 17.522 200.08-379.896 33.204z"/>
+    <rect stroke="#FFF" stroke-width="3" fill="#101820" x="669.43" y="163.574" width="466.321" height="389.264" rx="10"/>
+    <path d="M70.104 236.099h227.67a10 10 0 0 1 7.928 3.905l27.38 35.615a10 10 0 0 0 7.927 3.906h148.473c5.523 0 10 4.477 10 10v253.312c0 5.523-4.477 10-10 10H70.104c-5.523 0-10-4.477-10-10V246.1c0-5.523 4.477-10 10-10Z" stroke="#FFF" stroke-width="3" fill="#101820"/>
+    <path stroke="#FFF" stroke-width="3" d="m602.892 325.09 39.379 39.34-39.379 39.34M641.695 365.027H537.58"/>
+    <path fill="url(#a)" d="M706.65 371.507h389.637V205.863H706.65z"/>
+    <path fill="url(#b)" d="M706.65 446.047h190.674v-35.2H706.65zM706.65 508.164h190.674v-35.2H706.65z"/>
+    <path stroke="#FFF" stroke-width="3" fill="#101820" d="M992.746 507.285h62.176v89.034l-30.635-24.894-31.54 24.894z"/>
+    <ellipse fill="url(#c)" cx="1023.834" cy="467.945" rx="72.539" ry="72.469"/>
+  </g>
+</svg>

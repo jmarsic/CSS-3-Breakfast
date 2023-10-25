@@ -1,0 +1,16 @@
+<svg width="10px" height="7px" viewBox="0 0 10 7" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Path</title>
+  <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Navigation" transform="translate(-1169.000000, -39.000000)" stroke="white" stroke-width="2">
+      <g transform="translate(11.000000, 1.000000)" id="Nav">
+        <g transform="translate(869.000000, 14.000000)">
+          <g id="Group-2-Copy-2" transform="translate(0.000000, 16.000000)">
+            <polyline id="Path" transform="translate(294.250000, 10.750000) rotate(-270.000000) translate(-294.250000, -10.750000) " points="292.25 6.75 296.25 10.75 292.25 14.75"></polyline>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
