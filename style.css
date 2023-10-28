@@ -10,11 +10,22 @@ Plava (borderi) #0042ce */
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #101820;
 }
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav-container {
@@ -23,33 +34,128 @@ a {
   align-items: center;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 14px;
 }
 
 .nav__logo__label {
   color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.5 ease;
+}
+
+.nav__logo__label:hover {
+  color: #00cf8f;
 }
 
 .nav__links-container {
   margin-right: 20px;
+  position: relative;
+}
+
+.nav__submenu {
+  position: absolute;
+  display: none;
+}
+
+.nav__links-container:hover .nav__submenu {
+  display: block;
 }
 
 .nav__links__label {
   font-size: 12px;
   color: white;
+  transition: color;
+}
+
+.nav__links__label:hover {
+  color: #00cf8f;
+}
+
+.nav__links__chevron {
+  transition: stroke 0.5 ease, transform 1 ease-in;
+}
+
+.nav__links-container:hover .nav__links__chevron {
+  stroke: #00cf8f;
+  transform: rotate(180deg);
 }
 
 .nav__links__order-button {
-    background-color: #00cf8f;
-    padding: 10px 5px;
-    border: 0px;
-    border-radius: 25px;
+  background-color: #00cf8f;
+  padding: 10px;
+  border: 0px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .nav__links__order-label {
-    padding-left: 10px;
-    font-weight: 600;
+  padding-left: 10px;
+  margin-right: 6px;
+
+  font-weight: 600;
 }
 
 .nav__order-button__chevron-img {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.hero-info {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.hero-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 36px
+}
+
+.hero__order-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00cf8f;
+  padding: 10px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 200px;
+}
+
+.hero__order-label {
+  padding-left: 10px;
+  margin-right: 6px;
+  font-weight: 600;
+}
+
+.hero__order-button__chevron-img {
+  margin-right: 10px;
+}
+
+.content {
+  margin-left: 100px
+}
+
+.content-heading {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.content-info {
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 50px;
 }
