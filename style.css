@@ -55,7 +55,31 @@ p {
 
 .nav__submenu {
   position: absolute;
-  display: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px 20px 10px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.nav__submenu__link {
+  color: #101820;
+  margin-right: 26px;
+  margin-bottom: 10px;
+}
+
+.nav__submenu__image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.nav__submenu__images {
+  position: absolute;
+  top: 25%;
+  left: 70%;
 }
 
 .nav__links-container:hover .nav__submenu {
@@ -174,4 +198,29 @@ p {
   color: #ffffff;
   font-size: 13px;
   margin-bottom: 50px;
+}
+
+.content-preview-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.content-preview-left {
+  width: 560px;
+}
+
+.content-preview-right {
+  width: 560px;
+}
+
+.content-preview-left-main-image {
+  width: 550px
+}
+
+.content-preview-left-secondary-image {
+  width: 550px
+}
+
+.content-preview-right-main-image {
+  width: 550px
 }
